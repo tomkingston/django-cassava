@@ -1,3 +1,4 @@
 django_clever_forms.egg-info/*
 Django-*.egg
 *.pyc
+dist
