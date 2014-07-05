@@ -4,7 +4,7 @@ from django import forms
 from django.test import TestCase
 from django.core.files.uploadedfile import SimpleUploadedFile
 
-from clever_forms.forms import CsvFormsetField
+from clever_forms.fields import CsvFormsetField
 
 
 class ShoppingListItemForm(forms.Form):
