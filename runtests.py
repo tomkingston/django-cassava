@@ -7,7 +7,7 @@ from django.conf import settings
 
 DEFAULT_SETTINGS = {
     "INSTALLED_APPS": (
-        "clever_forms",
+        "cassava",
     ),
     "DATABASES": {
         "default": {
@@ -31,7 +31,7 @@ def runtests():
     try:
         from django.test.runner import DiscoverRunner
         runner_class = DiscoverRunner
-        test_args = ['clever_forms.tests']
+        test_args = ['cassava.tests']
     except ImportError:
         from django.test.simple import DjangoTestSuiteRunner
         runner_class = DjangoTestSuiteRunner

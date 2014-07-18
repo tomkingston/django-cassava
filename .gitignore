@@ -1,4 +1,4 @@
-django_clever_forms.egg-info/*
+django_cassava.egg-info/*
 Django-*.egg
 *.pyc
 dist

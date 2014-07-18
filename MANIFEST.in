@@ -1,4 +1,4 @@
 include LICENSE
 include README.rst
-include clever_forms/tests/*.csv
+include cassava/tests/*.csv
 # recursive-include docs *

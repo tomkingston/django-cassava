@@ -1,18 +1,19 @@
 import os
 from setuptools import setup
 
+
 README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 
 # allow setup.py to be run from any path
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='django-clever-forms',
+    name='django-cassava',
     version='0.1',
-    packages=['clever_forms'],
+    packages=['cassava'],
     include_package_data=True,
     license='BSD License',  # example license
-    description='A simple Django app providing useful form fields.',
+    description='A simple Django app for processing csv files with forms.',
     long_description=README,
     url='http://www.kingstonlabs.com/',
     author='Tom Kingston',

@@ -1,6 +1,6 @@
-Django Clever Forms
-===================
-Django Clever Forms is a library of useful form fields and features.  For the moment this only includes the CsvFormsetField.
+Django Cassava
+==============
+Django Cassava is a library of useful utilities for processing csv files with forms.  For the moment this includes the CsvFormsetField.
 
 CsvFormsetField
 ---------------
@@ -11,7 +11,7 @@ To use it, you just need to add a CsvFormsetField to your form (the one to rende
 The example below illustrates how this could be used to implement a simple shopping list as a csv upload::
 
 
-    from clever_forms.forms import CsvFormsetField
+    from cassava.forms import CsvFormsetField
 
 
     class ShoppingListItemForm(forms.Form):
