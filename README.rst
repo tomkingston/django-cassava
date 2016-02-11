@@ -11,7 +11,7 @@ To use it, you just need to add a CsvFormsetField to your form (the one to rende
 The example below illustrates how this could be used to implement a simple shopping list as a csv upload::
 
 
-    from cassava.forms import CsvFormsetField
+    from cassava.fields import CsvFormsetField
 
 
     class ShoppingListItemForm(forms.Form):
